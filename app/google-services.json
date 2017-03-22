@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1014965431339",
+    "firebase_url": "https://bealert-7c8bb.firebaseio.com",
+    "project_id": "bealert-7c8bb",
+    "storage_bucket": "bealert-7c8bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014965431339:android:378b12aee519a253",
+        "android_client_info": {
+          "package_name": "me.pulkitkumar.bealert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014965431339-e7vocl7gjsqsq28dch2r24qn2n2ql44a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.pulkitkumar.bealert",
+            "certificate_hash": "1a0aa7444c56707b760b4d362bce0ca80715e109"
+          }
+        },
+        {
+          "client_id": "1014965431339-r8ga2mbcns3492l4g3q8j4v7mboekl9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkH63CqzS1VtF2a-jFdmCKgSwaBSl5hfg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014965431339-r8ga2mbcns3492l4g3q8j4v7mboekl9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

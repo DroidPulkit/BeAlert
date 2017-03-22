@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.pulkitkumar.bealert.EmergencyActivity">
+
+    <com.intrusoft.squint.DiagonalView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        app:solidColor="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:id="@+id/container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="4dp">
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimary" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="16dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:text="CONTACT DETAILS"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/contact_details_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/contact_detail_1_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/contact_detail_1_name_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Touch to add your first contact here"/>
+                        <!--
+                        <TextView
+                            android:id="@+id/contact_detail_1_delete"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/ic_menu_close_clear_cancel" />
+                            -->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/contact_detail_2_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/contact_detail_2_name_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Touch to add your second contact here"/>
+                        <!--
+                        <TextView
+                            android:id="@+id/contact_detail_2_delete"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/ic_menu_close_clear_cancel" />
+                            -->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/contact_detail_3_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/contact_detail_3_name_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Touch to add your third contact here"/>
+                        <!--
+                        <TextView
+                            android:id="@+id/contact_detail_3_delete"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/ic_menu_close_clear_cancel" />
+                            -->
+                    </LinearLayout>
+                </LinearLayout>
+                <!--
+                <Button
+                    android:id="@+id/add_contacts"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Add Contacts" />
+
+                    -->
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>
