@@ -5,4 +5,6 @@
     <color name="colorAccent">#F3A712</color>
     <color name="white">#ffffff</color>
     <color name="lightGray">#88848484</color>
+    <color name="alphaPrimary">#40004D99</color>
+    <color name="oil">#333333</color>
 </resources>
